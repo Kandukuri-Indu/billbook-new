@@ -1,0 +1,102 @@
+import { img2, img3, img4, img5, img6, img7 } from "../../_components/imagepath";
+
+export default {
+    Data: [
+        {
+          id: 1,
+          Invoice: "#4987",
+          Category: "Food",
+          Created : "23 Mar 2023",
+          Name: "John Smith",
+          email: "john@example.com",
+          img:img2,
+          Total: "$1,54,220",
+          Paid: "$1,50,000",
+          Payment: "Cash",
+          Balance: "$0",
+          Due: "-",
+          Status: "Paid",
+          Action: ""
+        },
+        {
+          id:2,  
+          Invoice: "#4988",
+          Category: "Advertising",
+          Created : "16 Mar 2022",
+          Name: "Johnny",
+          email: " johnny@example.com",
+          img:img3,
+          Total: "$3,54,220",
+          Paid: "$2,50,000",
+          Payment: "Cheque",
+          Balance: "$4,220",
+          Due: "16 Jan 2023",
+          Status: "Paid",
+          Action: ""
+        },
+        {
+          id:3, 
+          Invoice: "#4989",
+          Category: "Marketing",
+          Created : "25 Feb 2023",
+          Name: "Robert",
+          email: " robert@example.com",
+          img:img4,
+          Total: "$1,54,220",
+          Paid: "$1,50,000",
+          Payment: "Cash",
+          Balance: "$4,220",
+          Due: "16 Jan 2023",
+          Status: "Paid",
+          Action: ""
+        },
+        {
+          id:4,  
+          Invoice: "#4990",
+          Category: "Repairs",
+          Created : "25 Mar 2022",
+          Name: "Sharonda",
+          email: " sharon@example.com",
+          img:img5,
+          Total: "$1,54,220",
+          Paid: "$1,50,000",
+          Payment: "Cash",
+          Balance: "$4,220",
+          Due: "12 May 2023",
+          Status: "Paid",
+          Action: ""
+        },
+        {
+          id:5,  
+          Invoice: "#4991",
+          Category: "Software",
+          Created : "12 May 2022",
+          Name: "Pricilla",
+          email: "pricilla@example.com",
+          img:img6,
+          Total: "$5,54,220",
+          Paid: "$3,50,000",
+          Payment: "Cheque",
+          Balance: "$4,220",
+          Due: "18 May 2023",
+          Status: "Paid",
+          Action: ""
+        },
+        {
+          id:6,  
+          Invoice: "#4992",
+          Category: "Stationary",
+          Created : "16 Nov 2022",
+          Name: "Randall ",
+          email: "randall@example.com",
+          img:img7,
+          Total: "$5,54,220",
+          Paid: "$6,50,000",
+          Payment: "Cash",
+          Balance: "$4,220",
+          Due: "25 Feb 2023",
+          Status: "Paid",
+          Action: ""
+        }
+    ]
+}

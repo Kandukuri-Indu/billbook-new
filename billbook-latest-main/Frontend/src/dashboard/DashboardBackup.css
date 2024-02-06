@@ -1,0 +1,141 @@
+/* todays sales component */
+.todaysales-parent {
+    width: 95%;
+    margin-left: 10px;
+    /* margin: auto; */
+    padding: 0px 0px 15px 0px;
+}
+
+.todaysales-parent > .row .col-md-7{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 15px;
+    /* padding: 0; */
+}
+.todaysales-sub {
+    display: flex;
+    justify-content: space-between;
+}
+.todaysales-sub-text2 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 8px;
+    padding: 7px 12px;
+}
+.todaysales-sub-text2 p{
+    margin: 0;
+}
+.todaysales-export-icon {
+    height: 21px;
+    width: 22px;
+}
+.todaysales-export-icon img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+.todaysales-sub {
+    display: flex;
+    align-items: center;
+    padding: 10px 0px 15px 0px;
+    justify-content: space-between;
+}
+.todaysales-sub2-content {
+    width:100%;
+    background: #FFE2E5;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px 13px;
+}
+.todaysales-sub2-content-icon {
+    height: 43px;
+    width: 43px;
+}
+.todaysales-sub2-content-icon img{
+    height:100%;
+    width:100%;
+    object-fit: contain;
+}
+.todaysales-sub2-content-day {
+    color: blue;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.totalsales{
+    font-size: 15px;
+    font-weight: 600;
+color: #425166;
+padding-bottom: 10px;
+}
+.totalorders-sub2-content-text {
+    padding-left: 5px;
+}
+.todaysales-sub2-content h5{
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+.todaysales-sub2-parent{
+ padding-bottom: 25px;
+}
+.totalorders-sub2-content{
+    width:100%;
+    background: #FFF4DE;
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px 13px;
+    /* margin-left: 20px; */
+}
+.totalorders-sub2-content h5 {
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+.ProductSold-sub2-content{
+    width:100%;
+    background: var(--Colors-Green-100, #DCFCE7);
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px 13px;
+    /* margin-left: 40px; */
+}
+.ProductSold-sub2-content h5{
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+.NewCustomers-sub2-content{
+    width:100%;
+    background: var(--Colors-Purple-100, #F3E8FF);
+    height: fit-content;
+    border-radius: 15px;
+    padding: 15px 13px;
+    /* margin-left: 57px; */
+}
+.Visitorschart-chart h4{
+    font-size: 20px;
+    padding-left: 15px;
+}
+.NewCustomers-sub2-content h5{
+    font-weight: 600;
+    padding: 15px 0px 10px 0px;
+}
+.todaysales-sub2-parent .col-md-3 {
+    flex: 0 0 auto;
+    width: 24%;
+    margin-right: 6px;
+    padding: 0;
+}
+.todaysales-sub2-parent > .row{
+    align-items: center;
+}
+
+/* visitors chart component */
+.Visitorschart-chart {
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+}
+.todaysales-sub .col-md-4{
+    padding: 0;
+}

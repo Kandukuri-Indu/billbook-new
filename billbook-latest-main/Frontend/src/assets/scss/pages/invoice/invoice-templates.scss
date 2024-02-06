@@ -1,0 +1,20 @@
+.invoice-card-title{
+    h6 {
+       
+        margin-bottom: 24px;
+        font-weight: 600;
+    }
+}
+.invoice-content-title{
+    
+       a{
+        font-size: $__font__size__13;
+        padding:10px;
+        color:#28084B;
+        display:inline-block;
+       }
+       a:hover {
+        color: $__downloadcolor;
+      }
+    
+}
